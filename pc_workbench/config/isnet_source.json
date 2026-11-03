@@ -1,0 +1,15 @@
+{
+  "url": "https://github.com/danielgatis/rembg/releases/download/v0.0.0/isnet-general-use.onnx",
+  "bytes": 178648008,
+  "sha256": "60920e99c45464f2ba57bee2ad08c919a52bbf852739e96947fbb4358c0d964a",
+  "seconds": 49.80041960000017,
+  "model": "IS-Net general foreground",
+  "geometry_generated": false,
+  "upstream_algorithm_repository": "https://github.com/xuebinqin/DIS",
+  "onnx_distribution_repository": "https://github.com/danielgatis/rembg",
+  "upstream_license": "Apache-2.0 (repository license; model obtained through rembg release)",
+  "preprocessing_reference": "rembg/sessions/dis_general_use.py",
+  "preprocessing_reference_sha256": "0bb86d2574240fd647646c2b6e49995bbbd1627e92418527b23c0396e120f09f",
+  "license_file_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "task": "2D foreground score proposal only; no generated 3D geometry"
+}

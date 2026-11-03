@@ -1,0 +1,621 @@
+{
+  "schema": "qian-open-source-baseline/v1",
+  "source_release": "source-20261103",
+  "board_baseline": "2026-11-02 20:47",
+  "motion_move_ms": 580,
+  "motion_stops": 18,
+  "front_count": 18,
+  "top_count": 4,
+  "resolution": [
+    2592,
+    1944
+  ],
+  "board_source_frozen": true,
+  "board_modules": [
+    "camera_init",
+    "camera_runtime",
+    "concurrent_capture",
+    "concurrent_usb_top",
+    "dual_view",
+    "ethernet_stream",
+    "fast_lossless_png",
+    "fpga_control",
+    "front18_top4_capture",
+    "front_only_capture",
+    "main_front18_top4",
+    "main_ov5640_only",
+    "paired_quality_recovery",
+    "required_concurrent_usb_top",
+    "required_usb_pairs",
+    "stop_capture",
+    "usb_capture_worker",
+    "usb_host_restore",
+    "usb_top_capture"
+  ],
+  "desktop_default_udp_port": 5012,
+  "desktop_source": "provided-workbench-20261103",
+  "new_hardware_build_tested": false,
+  "publication_performed": false,
+  "original_files": {
+    "board/pynq_app/usb_capture_worker.py": {
+      "source": "release_dependencies/usb_capture_worker.py",
+      "source_sha256": "1242a85a94bc83b74f1276be9336c277b210f56405c188d586b8c8c9678232b9"
+    },
+    "board/pynq_app/usb_host_restore.py": {
+      "source": "release_dependencies/usb_host_restore.py",
+      "source_sha256": "27ce6eb641276ea4f7c9e141e67b681dc05ffbd4828a223976c089bb20c193d5"
+    },
+    "board/pynq_app/main_front18_top4.py": {
+      "source": "verified_20261102_2047/main_front18_top4.py",
+      "source_sha256": "155e1599a3005cdc22e7eba1c2a0580208a23b574f2379588d7e369456e3ec2e"
+    },
+    "board/pynq_app/stop_capture.py": {
+      "source": "release_dependencies/stop_capture.py",
+      "source_sha256": "92833315fdeadcf96b8209a46de0720c73a5442de5842e37fd03dcc0b5d41fd6"
+    },
+    "board/pynq_app/fpga_control.py": {
+      "source": "release_dependencies/fpga_control.py",
+      "source_sha256": "5387abf27db485c3e459319c6d2159dfa0b82d372a398d9917a67e2dee4565ee"
+    },
+    "board/pynq_app/required_usb_pairs.py": {
+      "source": "release_dependencies/required_usb_pairs.py",
+      "source_sha256": "f2c51828737daef0148c3281e9bee3e5f3c116637f61d2bbb88ac1f2f8dda19a"
+    },
+    "board/pynq_app/usb_top_capture.py": {
+      "source": "release_dependencies/usb_top_capture.py",
+      "source_sha256": "e988cee50a52aac28e21966aa0b44d505957a5b4006c746db4e50146502d9fb4"
+    },
+    "board/pynq_app/dual_view.py": {
+      "source": "release_dependencies/dual_view.py",
+      "source_sha256": "772c4b4268c93a1dd79458f9ef0d4756f68409fd0e5bf228d07673beea508286"
+    },
+    "board/pynq_app/front18_top4_capture.py": {
+      "source": "verified_20261102_2047/front18_top4_capture.py",
+      "source_sha256": "fed9d81adc80e404133b4eecee1ef941f8f47d4f0c0730175ed2ae1f8c6863ea"
+    },
+    "board/pynq_app/paired_quality_recovery.py": {
+      "source": "release_dependencies/paired_quality_recovery.py",
+      "source_sha256": "9799ccf1befc3a1b69107e62056dbeebb046b4334919af4a6a6f83564d6f8166"
+    },
+    "board/pynq_app/required_concurrent_usb_top.py": {
+      "source": "release_dependencies/required_concurrent_usb_top.py",
+      "source_sha256": "a2aca5986d45f5b5d109fdc3445554ca77db25a0dcea9c1e956f461dee75dedd"
+    },
+    "board/pynq_app/concurrent_usb_top.py": {
+      "source": "release_dependencies/concurrent_usb_top.py",
+      "source_sha256": "cc09004e328259976cb30b012b986daad7ec561110da50d5e39b46381e81c55e"
+    },
+    "board/pynq_app/concurrent_capture.py": {
+      "source": "release_dependencies/concurrent_capture.py",
+      "source_sha256": "ba9ee80a2e573a4e292f65cc49a5515fa13effd1e2bfef356483bff03d9b18de"
+    },
+    "board/pynq_app/front_only_capture.py": {
+      "source": "release_dependencies/front_only_capture.py",
+      "source_sha256": "bc24f88abed13924d957e36271f05fe315020882df8f85ad0f821434f1ab6fc2"
+    },
+    "board/pynq_app/ethernet_stream.py": {
+      "source": "release_dependencies/ethernet_stream.py",
+      "source_sha256": "dd14de057e5aed723772ff65a5f7c04a1d61389c259b262b48ce77d655132b02"
+    },
+    "board/pynq_app/fast_lossless_png.py": {
+      "source": "release_dependencies/fast_lossless_png.py",
+      "source_sha256": "6aefe5754c1d6f332fd36460db4aa970dda208e9f4d05fe9ba475d1b96c21dff"
+    },
+    "board/pynq_app/camera_runtime.py": {
+      "source": "release_dependencies/camera_runtime.py",
+      "source_sha256": "4876326e05a54cbf1d573d36d079f96b386a25a1ee9f769084300235d8bc9b67"
+    },
+    "board/pynq_app/camera_init.py": {
+      "source": "release_dependencies/camera_init.py",
+      "source_sha256": "62476e69ae1cdb8c3536e5beec333d1434956316bdb8f8a8e98d2548b03c44a0"
+    },
+    "board/pynq_app/main_ov5640_only.py": {
+      "source": "release_dependencies/main_ov5640_only.py",
+      "source_sha256": "d338c560fd57c67d7bb6882466e9ecfa5ac9d810c729f93d58f850133b45625d"
+    },
+    "board/plan_front18_top4.json": {
+      "source": "verified_20261102_2047/plan_front18_top4.json",
+      "source_sha256": "ad8a563268c0ece2798dbe7ecbda1879fd605d5874919501c96373d8d1083d07"
+    },
+    "board/install_front18_top4_service.sh": {
+      "source": "release_dependencies/install_front18_top4_service.sh",
+      "source_sha256": "e4aa91a04601259bb8ba872cb4b75733995a269afac5454761bd6391a29deb54"
+    },
+    "board/config/usb_host_mio7.dts": {
+      "source": "release_dependencies/config/usb_host_mio7.dts",
+      "source_sha256": "0fd1885a7097a0f99037cd3bd4558b7eb85b3dc1820f00b3883412a953f49ef8"
+    },
+    "board/config/usb_host_mio7.dtbo": {
+      "source": "release_dependencies/config/usb_host_mio7.dtbo",
+      "source_sha256": "f103bf27208fdd6613aa2a426807b36f7da243201068eb3c6d090ac438d759ec"
+    },
+    "pc_capture/ethernet_viewer.py": {
+      "source": "release_dependencies/pc_app/ethernet_viewer.py",
+      "source_sha256": "bacfa9e032c9749c0e239b3a4d3c66eb80e1f21f5a300f06255ab6f0e3c9bda9"
+    },
+    "pc_capture/capture_session.py": {
+      "source": "release_dependencies/pc_app/capture_session.py",
+      "source_sha256": "b87f4d7e5e957ef690141d1cb0fa48a18eb0d2199d7a72e77b1afbb67163d80e"
+    },
+    "pc_capture/requirements.txt": {
+      "source": "release_dependencies/pc_app/requirements.txt",
+      "source_sha256": "3dce4151fb6e825170459fb0ff5f2bd4db1a33c5f47882befa29ed25cc17c779"
+    },
+    "pc_workbench/.gitignore": {
+      "source": "workbench_20261103/.gitignore",
+      "source_sha256": "ce3a2bcdb315ba14dd546018a0f4f544eecadcb72aa3d8f17806dd91a9dd5142"
+    },
+    "pc_workbench/config/default.json": {
+      "source": "workbench_20261103/config/default.json",
+      "source_sha256": "5dbcecdaf077f0c93c6b9a8131bd393b3becdd181265d077a782550bb421945f"
+    },
+    "pc_workbench/config/isnet_source.json": {
+      "source": "workbench_20261103/config/isnet_source.json",
+      "source_sha256": "903e83afa90611132cc97e5ed8995edada108574389fe0041ab33d7c3f73b149"
+    },
+    "pc_workbench/config/lightglue_source.json": {
+      "source": "workbench_20261103/config/lightglue_source.json",
+      "source_sha256": "51e847b1c190c75eb654dbf8606d43970438c0dd1fb77a5ee948a5288acbf702"
+    },
+    "pc_workbench/config/双摄接入协议.md": {
+      "source": "workbench_20261103/config/双摄接入协议.md",
+      "source_sha256": "1ff046d14604d3ce1e67dc3ed88e0880db360b241b03a15f16de14023d80fabd"
+    },
+    "pc_workbench/CreateShortcut.ps1": {
+      "source": "workbench_20261103/CreateShortcut.ps1",
+      "source_sha256": "2c8c4f001dc664fbe4d72ce694e4d08c65db768bff73e42f1e1b767e9d3472ec"
+    },
+    "pc_workbench/docs/本机使用与历史记录.md": {
+      "source": "workbench_20261103/docs/本机使用与历史记录.md",
+      "source_sha256": "e4cef2c8c6b61c91ab1a87fba6f1953e1bec9161e8c1ba30384e0d946b6874b3"
+    },
+    "pc_workbench/Install.ps1": {
+      "source": "workbench_20261103/Install.ps1",
+      "source_sha256": "852c883bfbcbe51e1178ed37cf53771b3eabad63708a44926d9341bb57a19a0d"
+    },
+    "pc_workbench/Launch.ps1": {
+      "source": "workbench_20261103/Launch.ps1",
+      "source_sha256": "5115cc36fbf9321b8ff10df4f3a39732139a5fa28429e7f61a1770a0150a0e0c"
+    },
+    "pc_workbench/Launch.vbs": {
+      "source": "workbench_20261103/Launch.vbs",
+      "source_sha256": "36a8a865b6518b2266c543c89b0cc0e03e3917135271a9a34d23c2c6857e7875"
+    },
+    "pc_workbench/licenses/Hunyuan3D_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/Hunyuan3D_LICENSE.txt",
+      "source_sha256": "94259df223918a5733677965c1bfe1774a2dba25042d9c3b47a3418ea6c1f324"
+    },
+    "pc_workbench/licenses/Hunyuan3D_NOTICE.txt": {
+      "source": "workbench_20261103/licenses/Hunyuan3D_NOTICE.txt",
+      "source_sha256": "9ef89c88faf6fa97a7cc9ffc15deec7a8c27fb7ac9bca1f57e2884a5f8d48f42"
+    },
+    "pc_workbench/licenses/ISNet_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/ISNet_LICENSE.txt",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "pc_workbench/licenses/learned_matching/LightGlue-LICENSE.txt": {
+      "source": "workbench_20261103/licenses/learned_matching/LightGlue-LICENSE.txt",
+      "source_sha256": "610b46052c892f43bb448c63b0d6609a3dd24d5c16fe59624f7d047b32a942bb"
+    },
+    "pc_workbench/licenses/learned_matching/LightGlue-ONNX-LICENSE.txt": {
+      "source": "workbench_20261103/licenses/learned_matching/LightGlue-ONNX-LICENSE.txt",
+      "source_sha256": "cd5ab5ccf6e0c89935b37e9d7102792897160b5e260a406ada75903c3881eb54"
+    },
+    "pc_workbench/licenses/learned_matching/SuperPoint-LICENSE.txt": {
+      "source": "workbench_20261103/licenses/learned_matching/SuperPoint-LICENSE.txt",
+      "source_sha256": "4d8485e7981d4b20e0ad6a2786ebd57d885265ddc97f5896a430809dde628c21"
+    },
+    "pc_workbench/licenses/learned_matching/THIRD_PARTY_NOTICES.md": {
+      "source": "workbench_20261103/licenses/learned_matching/THIRD_PARTY_NOTICES.md",
+      "source_sha256": "e35664d7c15f401d9af1c22d3a644109b59d027d767b9f0d1be3fe59dc0f1d9e"
+    },
+    "pc_workbench/licenses/lit_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/lit_LICENSE.txt",
+      "source_sha256": "c94b94b40b85a5083dea825ae844b1cedb40dd425685362c135e143265dd6cd4"
+    },
+    "pc_workbench/licenses/model-viewer_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/model-viewer_LICENSE.txt",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "pc_workbench/licenses/rembg_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/rembg_LICENSE.txt",
+      "source_sha256": "90a3215072968fd304669c5389f04f1274a587abdd0507d99dead0f5511f8999"
+    },
+    "pc_workbench/licenses/THIRD_PARTY.md": {
+      "source": "workbench_20261103/licenses/THIRD_PARTY.md",
+      "source_sha256": "1bcd5393141bc25300d1d19d649aa6ec5501bab0310ad853f014c5c4cf75698a"
+    },
+    "pc_workbench/licenses/threejs_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/threejs_LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    "pc_workbench/licenses/xatlas_python_LICENSE.txt": {
+      "source": "workbench_20261103/licenses/xatlas_python_LICENSE.txt",
+      "source_sha256": "42748bf52af17692c091202a3b584a84037536bbf0c421fc8531e0693567dcf3"
+    },
+    "pc_workbench/README.md": {
+      "source": "workbench_20261103/README.md",
+      "source_sha256": "fd57e42e6649e0c2404f720cba3ccc0a53b6ea26954498dced2bd82f0d636cea"
+    },
+    "pc_workbench/requirements-startup.txt": {
+      "source": "workbench_20261103/requirements-startup.txt",
+      "source_sha256": "a9bd3078648753d7a6af39f9f87eceb7c932e909ff1a36eaf54a2232df1f4749"
+    },
+    "pc_workbench/requirements.txt": {
+      "source": "workbench_20261103/requirements.txt",
+      "source_sha256": "f5bcbaa49dd7d368b96582a9b13ff3d194f162b4e41eaf85cc5764b752e618b0"
+    },
+    "pc_workbench/server.py": {
+      "source": "workbench_20261103/server.py",
+      "source_sha256": "1aea57c77c7fe4752c8f08052c79b79a71ad9271a956f3c761627497032f7178"
+    },
+    "pc_workbench/studio/__init__.py": {
+      "source": "workbench_20261103/studio/__init__.py",
+      "source_sha256": "480396ef563009fd229006aa40a94f6e1c990c356cf836acda0bf97c4b659f02"
+    },
+    "pc_workbench/studio/capture.py": {
+      "source": "workbench_20261103/studio/capture.py",
+      "source_sha256": "6d4d871b3680a6615141d3f7cb296e029257d579f76d0cecb4d73d760c984909"
+    },
+    "pc_workbench/studio/capture_import.py": {
+      "source": "workbench_20261103/studio/capture_import.py",
+      "source_sha256": "ddaa59b8d6f00ed001b434a13d67be2aaedb92c1ed53940bfbf7ca73dff83647"
+    },
+    "pc_workbench/studio/common.py": {
+      "source": "workbench_20261103/studio/common.py",
+      "source_sha256": "b81a81cfa9c2efe2750afcaf1980ebff514004ee5f2a8de620ba0cf6f85f74c4"
+    },
+    "pc_workbench/studio/direction_geometry.py": {
+      "source": "workbench_20261103/studio/direction_geometry.py",
+      "source_sha256": "259261c2973b6238f5920f5f41e4f7e6ec960e2a2a462102192046952e33ddfd"
+    },
+    "pc_workbench/studio/foreground_boundary.py": {
+      "source": "workbench_20261103/studio/foreground_boundary.py",
+      "source_sha256": "a23e83b02c83846ce7dbea6fe057536e316a6f3a60a5f190ae27f559c149ef7d"
+    },
+    "pc_workbench/studio/hardware.py": {
+      "source": "workbench_20261103/studio/hardware.py",
+      "source_sha256": "3bd75c9cd4a18b507896b2e3a92d6cafb89925822e4166ee642a2457e717a85a"
+    },
+    "pc_workbench/studio/ingest.py": {
+      "source": "workbench_20261103/studio/ingest.py",
+      "source_sha256": "6ae15b38718b6267104f04261f09bce19efa4667e000e88bc4545b083a6b8d02"
+    },
+    "pc_workbench/studio/jobs.py": {
+      "source": "workbench_20261103/studio/jobs.py",
+      "source_sha256": "7a20bcccd4a52c5a76dde2c03692d60488a304f39173c0fd3d915787ac2afc61"
+    },
+    "pc_workbench/studio/learned_directions.py": {
+      "source": "workbench_20261103/studio/learned_directions.py",
+      "source_sha256": "ebbe09a1587786aa85dde521a6a5481c5f97e68206f61f4003ed619d6b92c50a"
+    },
+    "pc_workbench/studio/pose_audit.py": {
+      "source": "workbench_20261103/studio/pose_audit.py",
+      "source_sha256": "c0971995050cc92ceb1e2f034a2650928305ff24a908b85a0366ae140c42ad29"
+    },
+    "pc_workbench/studio/process_tree.py": {
+      "source": "workbench_20261103/studio/process_tree.py",
+      "source_sha256": "f6a8ada3754f539937d806d8439577fba7d903e30091acfcf46bc3d317d7ce24"
+    },
+    "pc_workbench/studio/processing.py": {
+      "source": "workbench_20261103/studio/processing.py",
+      "source_sha256": "502a9cfc323035c1d03e9f4fd27f03ef3509c84ea9b73dc92f48c175cdf19640"
+    },
+    "pc_workbench/studio/quick_views.py": {
+      "source": "workbench_20261103/studio/quick_views.py",
+      "source_sha256": "19df47e944d570d398ffa282ad690de27632683c168a6bd53bce3f3ee9e7548a"
+    },
+    "pc_workbench/studio/texture_geometry.py": {
+      "source": "workbench_20261103/studio/texture_geometry.py",
+      "source_sha256": "a03b29cdb5a2bd1ef074d979c2be99af31f96a9e8e591fc9707a5dc8ba307d7c"
+    },
+    "pc_workbench/studio/texture_refinement.py": {
+      "source": "workbench_20261103/studio/texture_refinement.py",
+      "source_sha256": "97ae087b396272224d3ecb306fb128825f28be0c5ee40407afe99a115ea5b32f"
+    },
+    "pc_workbench/studio/turntable.py": {
+      "source": "workbench_20261103/studio/turntable.py",
+      "source_sha256": "aef3c07700df1bbc118caf4e70c0293c516f777ff63aac92031f2a425d026772"
+    },
+    "pc_workbench/studio/turntable_pose.py": {
+      "source": "workbench_20261103/studio/turntable_pose.py",
+      "source_sha256": "2e965d790ca28e1e99aae1204742398177c178be49fba2cd4e561cdae448a81b"
+    },
+    "pc_workbench/tests/test_foreground_boundary.py": {
+      "source": "workbench_20261103/tests/test_foreground_boundary.py",
+      "source_sha256": "f293a576346b64debea626a6e6a55723bbbbb6878eef324cc6589ece9d1d3efb"
+    },
+    "pc_workbench/tests/test_front_and_color.py": {
+      "source": "workbench_20261103/tests/test_front_and_color.py",
+      "source_sha256": "6630096b1068ae74859fabc059ff21d6d3a8588bfb39f65e30783162c4009c79"
+    },
+    "pc_workbench/tests/test_independent_gray.py": {
+      "source": "workbench_20261103/tests/test_independent_gray.py",
+      "source_sha256": "8720b10b3e9f0325daa5fd55c6b6454dd52702dbda8fc25ebcee5d93540ff0c0"
+    },
+    "pc_workbench/tests/test_one_click.py": {
+      "source": "workbench_20261103/tests/test_one_click.py",
+      "source_sha256": "4b8abbecb55add73b693a0baca7e9ac5c952154f207c07a93c1c3144bed78ed5"
+    },
+    "pc_workbench/tests/test_protocol.py": {
+      "source": "workbench_20261103/tests/test_protocol.py",
+      "source_sha256": "9da89591c2e8590938df31a4310f15f5d3c3a611e3a3a37a143ea824dedc9df4"
+    },
+    "pc_workbench/tests/test_startup.py": {
+      "source": "workbench_20261103/tests/test_startup.py",
+      "source_sha256": "49c7341e0d8c8468eb65809be946c61506ba6ecc4cfdc1d5ad163848457ee8e2"
+    },
+    "pc_workbench/tests/test_studio.py": {
+      "source": "workbench_20261103/tests/test_studio.py",
+      "source_sha256": "9bbbcdf0840b3bfde95b67717bec7bc5fb385ee53e3b53c0182db9099de25575"
+    },
+    "pc_workbench/tests/test_texture.py": {
+      "source": "workbench_20261103/tests/test_texture.py",
+      "source_sha256": "f3791ebdeb02487a1625edf7c139cfdf875044496578674bd5d5a3c3cfe6ca9a"
+    },
+    "pc_workbench/tests/test_texture_refinement.py": {
+      "source": "workbench_20261103/tests/test_texture_refinement.py",
+      "source_sha256": "f1438b41a9993927cedc99dbf6a2c34115d36c6ecfc0849994b7a1a63162d8f4"
+    },
+    "pc_workbench/tests/test_turntable_pose.py": {
+      "source": "workbench_20261103/tests/test_turntable_pose.py",
+      "source_sha256": "9d7e5c1abc30849207922a6e0cf64e54bb37278f981568a0c0767a524829ee22"
+    },
+    "pc_workbench/tools/build_gray.py": {
+      "source": "workbench_20261103/tools/build_gray.py",
+      "source_sha256": "e0a1faba0a41eec024c9e990da88003bbddfdb7e64c0e29cb8bf66409b32cbc7"
+    },
+    "pc_workbench/tools/check_startup.py": {
+      "source": "workbench_20261103/tools/check_startup.py",
+      "source_sha256": "686702d2773085c9965d8fb57fe9b9faace6c27068e4fc1d22c5f3856fad1d29"
+    },
+    "pc_workbench/tools/choose_folder.py": {
+      "source": "workbench_20261103/tools/choose_folder.py",
+      "source_sha256": "5006bfcbc3343fd2e9c9b6bb117c22e7972437f9930ef118ed051c1f0a90766d"
+    },
+    "pc_workbench/tools/download_models.py": {
+      "source": "workbench_20261103/tools/download_models.py",
+      "source_sha256": "b1e6debba866d8e6b5050c0f0bfc484486aa8bebbd72da8e3975cdb1099c3b4e"
+    },
+    "pc_workbench/tools/export_model.py": {
+      "source": "workbench_20261103/tools/export_model.py",
+      "source_sha256": "ffe207afeab7cba2bc0ae34a8a27d9bb87f4dc1a3c0491b9e5ac302bafa0313d"
+    },
+    "pc_workbench/tools/generate_shape.py": {
+      "source": "workbench_20261103/tools/generate_shape.py",
+      "source_sha256": "905b4ef0a72055924125018225aa057812a6422bcb8dd947409015f05c5c5a68"
+    },
+    "pc_workbench/tools/package_source.py": {
+      "source": "workbench_20261103/tools/package_source.py",
+      "source_sha256": "ad19c01e5e2ed33622221c25a737e97e684904eeb10cdb18cce163c1a193c25f"
+    },
+    "pc_workbench/tools/segment_views.py": {
+      "source": "workbench_20261103/tools/segment_views.py",
+      "source_sha256": "ed3277f5f14950bee777f57ca49e3df6a4c86a8a73653fcaa2bd435fc5d1b4d4"
+    },
+    "pc_workbench/tools/select_directions.py": {
+      "source": "workbench_20261103/tools/select_directions.py",
+      "source_sha256": "9300f7a2248de44aeedba22073a7f211c3203d0def1a486e830e02fe75b00bc8"
+    },
+    "pc_workbench/tools/select_ring_subset.py": {
+      "source": "workbench_20261103/tools/select_ring_subset.py",
+      "source_sha256": "e44bd349fabf8eb943250d80ef719628a157131e5e243a40af644aecaefddd81"
+    },
+    "pc_workbench/tools/texture_photos.py": {
+      "source": "workbench_20261103/tools/texture_photos.py",
+      "source_sha256": "c6f9a3506bcaa46d6e2b69d7abb356b1ffa38de3269b085cf1bad6a0a2802df3"
+    },
+    "pc_workbench/tools/ui_inspect.cjs": {
+      "source": "workbench_20261103/tools/ui_inspect.cjs",
+      "source_sha256": "28b7b6b22cd1771a105fe0fb2d6ed036fed11e886b28a6e195304665fbca621c"
+    },
+    "pc_workbench/tools/ui_review_test.cjs": {
+      "source": "workbench_20261103/tools/ui_review_test.cjs",
+      "source_sha256": "1d822a69b17ab116808362fa7393714b3bb9fb7d42245fd4ef03b822d8798ac4"
+    },
+    "pc_workbench/tools/ui_smoke.cjs": {
+      "source": "workbench_20261103/tools/ui_smoke.cjs",
+      "source_sha256": "b185d94908fa8e813711f7f42ce22e8b5fff67e07462883b1473beb232a7c86e"
+    },
+    "pc_workbench/vendor/fpga/protocol.py": {
+      "source": "workbench_20261103/vendor/fpga/protocol.py",
+      "source_sha256": "8156b83749ac09220a451da873e5f17b209e9e583923e92d1f0430bf158d73a8"
+    },
+    "pc_workbench/vendor/fpga/receiver.py": {
+      "source": "workbench_20261103/vendor/fpga/receiver.py",
+      "source_sha256": "8674ed0ab3b82bff6704e4c25cd3b7a51c2e32e7482ac9c7a80da1ea08cc4e24"
+    },
+    "pc_workbench/vendor/hunyuan3d/config.yaml": {
+      "source": "workbench_20261103/vendor/hunyuan3d/config.yaml",
+      "source_sha256": "4d9d7b21dd0669efd0a8da6024ecce28619b45a4ca5f3ea1394a54b3d38698f5"
+    },
+    "pc_workbench/vendor/hunyuan3d/decoder_test.json": {
+      "source": "workbench_20261103/vendor/hunyuan3d/decoder_test.json",
+      "source_sha256": "00d7e0e06580de3ccee7bd65cdc974db07cd90b7ab5c561411268b7a78af62d2"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/__init__.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/__init__.py",
+      "source_sha256": "e1a0f10f65a41667fadafc1fa2fe31a5b2c7f5dea7a659b3039e029d75ce1db0"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/__init__.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/__init__.py",
+      "source_sha256": "d233d923a912621c986201e482b1c7b9a5fc014974e6bb952ceb7b36f3c4020f"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/__init__.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/__init__.py",
+      "source_sha256": "2f56106c91dfc126f3e20551e8a7a48f049be7b33eda814ae1c184bc979328fe"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/__init__.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/__init__.py",
+      "source_sha256": "f1c91751fa8db7ecf531189aae33a59b5b9e3e10aa0d524edf33f6857eea8cfd"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/attention_blocks.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/attention_blocks.py",
+      "source_sha256": "86590fe6b7dae1e3250d08df8291bc2825f754663a2335f31887c5f8065b6ed0"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/attention_processors.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/attention_processors.py",
+      "source_sha256": "9a461ddde9a2bf5ca0cd3961c3c1b86f9c81772066fe5b815bc497e0b5a8f053"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/model.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/model.py",
+      "source_sha256": "22ea23cb832017e628f139b06743de5ef54c4fcb298f532f94c99a4a25996893"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/surface_extractors.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/surface_extractors.py",
+      "source_sha256": "44b5d3c7b5b0e9333e3cc8ae4264ef4d9e0bafbaabe9177ea1ab96e12c545e3c"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/volume_decoders.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/volume_decoders.py",
+      "source_sha256": "9b94d32b5070c09470e246aec8804bc5a202087695aac199bf3c59bac11227fd"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/conditioner.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/conditioner.py",
+      "source_sha256": "c735ef7abbdd0fad089e684a237ef30a6cb7616c2faa49a30571d3640c2865c9"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/__init__.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/__init__.py",
+      "source_sha256": "8ab24870a628fb94a3d903d7d149d3eb3d20b32cadf8f6680c6e457562384a41"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/hunyuan3ddit.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/hunyuan3ddit.py",
+      "source_sha256": "0288db52767927a03bbbd687eba253f4567493d3d6c24c97b289ea7a1acd13c3"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/hunyuandit.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/hunyuandit.py",
+      "source_sha256": "b9a51ac5338c6f886f4312a5967933a23969fb293cfc5c0b9c40236207cf89b5"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/moe_layers.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/moe_layers.py",
+      "source_sha256": "afd9ca7511c2cd028d220f18c4b4e31a457cda19a1de34bfb925af663a24f3af"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/pipelines.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/pipelines.py",
+      "source_sha256": "3eb438997fca59f682866f529f1984d4852d717577c24743e5d9bfd5566fa467"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/postprocessors.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/postprocessors.py",
+      "source_sha256": "3899ef49fbc7453553d264d16c14305a9ee9c6f8a3341a8850b960f018640a17"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/preprocessors.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/preprocessors.py",
+      "source_sha256": "284dc24fabbf974bd6793ebd58e95b7700550d90371cacb96ad0889ec558de1e"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/schedulers.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/schedulers.py",
+      "source_sha256": "d3b25b84dac26f0e862cfc866da08df2d6592f01a0aaeda965782ab0fc1d8bba"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/surface_loaders.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/surface_loaders.py",
+      "source_sha256": "59498b96540d3915c1afbdb52fa125b6e4564c6261a54de2d402a729b0ffc624"
+    },
+    "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/utils.py": {
+      "source": "workbench_20261103/vendor/hunyuan3d/hy3dgen/shapegen/utils.py",
+      "source_sha256": "434987747ec07c734b64cc933f7829bf6d10800a7c5e97f649547aa5979c1fbd"
+    },
+    "pc_workbench/vendor/hunyuan3d/local_patches.json": {
+      "source": "workbench_20261103/vendor/hunyuan3d/local_patches.json",
+      "source_sha256": "bdbd1e84dfe462c4550775aa140d8bd4b21f1ea9d6620186d1f0f37c02d0b39e"
+    },
+    "pc_workbench/vendor/hunyuan3d/upstream.json": {
+      "source": "workbench_20261103/vendor/hunyuan3d/upstream.json",
+      "source_sha256": "5f1d1a03d37f2224ea7041fdb93d87fcc296db3817fd8c2ea5cfbaa1c01f56bb"
+    },
+    "pc_workbench/vendor/hunyuan3d/weight_source.json": {
+      "source": "workbench_20261103/vendor/hunyuan3d/weight_source.json",
+      "source_sha256": "dea7997024d4a2291c18c672a1c88504d5be19a333ea7c34cd01b84ff0446a76"
+    },
+    "pc_workbench/vendor/viewer/model-viewer.min.js": {
+      "source": "workbench_20261103/vendor/viewer/model-viewer.min.js",
+      "source_sha256": "8367184a607fbe07a78b650c0d359e5ebbd96f7e2b22f95f761f559b63430386"
+    },
+    "pc_workbench/web/app.js": {
+      "source": "workbench_20261103/web/app.js",
+      "source_sha256": "c0772aba5f629f04d095dd788d6948fea0ec373e897a1a1fdd7a271b3e6df3dd"
+    },
+    "pc_workbench/web/index.html": {
+      "source": "workbench_20261103/web/index.html",
+      "source_sha256": "3628a8a6671fdb558ef03d51440d8d9fc3bb86ec818ea616e79a26ce58e8a8b4"
+    },
+    "pc_workbench/web/style.css": {
+      "source": "workbench_20261103/web/style.css",
+      "source_sha256": "1cd86cb618a5c65778c4a10481db45e83d773819b3acb0b6ba514ba0c6f6301a"
+    },
+    "pc_workbench/上传说明.md": {
+      "source": "workbench_20261103/上传说明.md",
+      "source_sha256": "461f4880b8f53e86820556df3125362e1f461910ff8388cd2d507aac74fcf90f"
+    },
+    "pc_workbench/启动建模.cmd": {
+      "source": "workbench_20261103/启动建模.cmd",
+      "source_sha256": "4d547c1e6c1259a8727d29a11605a9949eb9f8fa69992f6e420dabdda0bed61b"
+    },
+    "pc_workbench/验证说明.md": {
+      "source": "workbench_20261103/验证说明.md",
+      "source_sha256": "e5afe691679fec079fd236d606c5038de38f707910cecd712e0c8a5e3e1d371c"
+    },
+    "fpga/source/ip_repo/camera_probe_sync.v": {
+      "source": "hardware_build_source/ip_repo/camera_probe_sync.v",
+      "source_sha256": "f18027298216c81c8c64c70de6a101545a7661fa3d817e76d0e33dae6e8e9654"
+    },
+    "fpga/source/ip_repo/camera_video_reset.v": {
+      "source": "hardware_build_source/ip_repo/camera_video_reset.v",
+      "source_sha256": "c44822c5f881b249adae11d4e193527212564a12011cb262400e434e02bca6a3"
+    },
+    "fpga/source/ip_repo/servo_key_capture.v": {
+      "source": "hardware_build_source/ip_repo/servo_key_capture.v",
+      "source_sha256": "6002f5649f1996e62bcd67aaee75c7d45f98b1c87fc19e5a9a18bff6cfc4b943"
+    },
+    "fpga/source/ip_repo/dual_view/dual_view_pl.v": {
+      "source": "hardware_build_source/ip_repo/dual_view/dual_view_pl.v",
+      "source_sha256": "da1e7d6724e3ee83c6906e5a786b5b606665fb21efba78ca2ef3f969eeae83b7"
+    },
+    "fpga/source/ip_repo/image_process/image_process.v": {
+      "source": "hardware_build_source/ip_repo/image_process/image_process.v",
+      "source_sha256": "7823c76b8f6f6da80b7e1ebbbf208da7b57890cf0c8f34c65e7d499e48c07418"
+    },
+    "fpga/source/ip_repo/image_process/image_process_axi.v": {
+      "source": "hardware_build_source/ip_repo/image_process/image_process_axi.v",
+      "source_sha256": "35ddb38d254c63233bac75369a1dd08f0d81732c1b0f90d563e9e38e21889be9"
+    },
+    "fpga/source/ip_repo/image_process/rgb_chroma_axis.v": {
+      "source": "hardware_build_source/ip_repo/image_process/rgb_chroma_axis.v",
+      "source_sha256": "543e333969847a54f4231c72e09e73d12ad856ee6831d11f382b18f72b558dbb"
+    },
+    "fpga/source/ip_repo/image_process/rgb_isp_axis.v": {
+      "source": "hardware_build_source/ip_repo/image_process/rgb_isp_axis.v",
+      "source_sha256": "4271673c2ca9ad678a3bbbd9b20c91084111e53514d5367976545af873443487"
+    },
+    "fpga/source/ip_repo/image_process/rgb_isp_ycocg_axis.v": {
+      "source": "hardware_build_source/ip_repo/image_process/rgb_isp_ycocg_axis.v",
+      "source_sha256": "7c9803a7ffb2cb16e0a9a462fbfcb12d67f51552fdb286b81118c9f9c4b28372"
+    },
+    "fpga/source/ip_repo/image_process/rgb_sharpen_axis.v": {
+      "source": "hardware_build_source/ip_repo/image_process/rgb_sharpen_axis.v",
+      "source_sha256": "aa2891031d8b83c5ee913a0e3a63bca144eef645a40aebb85533e4c9ec96e2bf"
+    },
+    "fpga/constraints/pin.xdc": {
+      "source": "hardware_build_source/constraints/pin.xdc",
+      "source_sha256": "7ae77ee9a46e173630fd97498b766cc51bbd252361f9904c90d7895657830a13"
+    },
+    "fpga/constraints/camera_sync.xdc": {
+      "source": "hardware_build_source/constraints/camera_sync.xdc",
+      "source_sha256": "d0aaf81b2e882057c69f637ed72d76a227f6c452080edb45023fcb04533ed056"
+    },
+    "fpga/constraints/pl_key.xdc": {
+      "source": "hardware_build_source/constraints/pl_key.xdc",
+      "source_sha256": "f78312c80e51f84ec0fbad39202157b06b93700e046c3694574d164844cd0030"
+    },
+    "fpga/constraints/servo_v7.xdc": {
+      "source": "hardware_build_source/constraints/servo_v7.xdc",
+      "source_sha256": "546179f2211b100c6b69d29afba72d39fba5b391010f05224e659a510f50fdf2"
+    },
+    "fpga/source/system.bd": {
+      "source": "hardware_build_source/system.bd",
+      "source_sha256": "25ec3f503010b4928e1e37ebcaec4823f77d7ea0ccde36507894982a4d7f6773"
+    },
+    "docs/register_map_history.md": {
+      "source": "protocol/register_map.md",
+      "source_sha256": "b6a5bc26091b200fc3b41af6057ec963691b1fbdc3e622dc38494f7de6e9d066"
+    }
+  }
+}

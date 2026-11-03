@@ -1,0 +1,3 @@
+* -text
+# Preserve verified source byte hashes. New files should use UTF-8/LF.
+*.dtbo binary

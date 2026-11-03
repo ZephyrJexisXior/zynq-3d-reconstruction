@@ -1,0 +1,21 @@
+{
+  "python": "runtime/Scripts/python.exe",
+  "ai_python": "runtime/Scripts/python.exe",
+  "segment_python": "runtime/Scripts/python.exe",
+  "weights": "models/model.fp16.safetensors",
+  "segmentation_model": "models/isnet-general-use.onnx",
+  "data_dir": "data",
+  "host": "127.0.0.1",
+  "port": 8790,
+  "board_ip": "192.168.2.99",
+  "board_target_ip": "192.168.2.1",
+  "udp_port": 5012,
+  "serial_port": "auto",
+  "serial_baud": 115200,
+  "require_serial": true,
+  "colmap": "",
+  "matching_model": "",
+  "exclude_turntable": false,
+  "capture_order_direction": "left",
+  "turntable_calibration": false
+}

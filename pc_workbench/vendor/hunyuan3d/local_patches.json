@@ -1,0 +1,17 @@
+{
+  "patches": [
+    {
+      "file": "hy3dgen/shapegen/models/autoencoders/volume_decoders.py",
+      "change": "Use float32 coordinate spacing/origin, and preserve coarse field via trilinear interpolation instead of NaN outside refinement band."
+    },
+    {
+      "file": "hy3dgen/shapegen/models/autoencoders/surface_extractors.py",
+      "change": "Scale marching cubes indices by grid cells rather than sample count."
+    }
+  ],
+  "regression": "decoder_test.json",
+  "wrapper_fixes": [
+    "Supply missing components registry for CPU offload",
+    "Set execution device to CUDA after CPU loading"
+  ]
+}

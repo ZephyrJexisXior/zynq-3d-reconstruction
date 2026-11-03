@@ -1,0 +1,21 @@
+# Python 3.11. Install torch / torchvision with the CUDA 12.4 index first.
+numpy==2.2.6
+scipy==1.15.3
+Pillow==13.0.0
+opencv-python==4.11.0.86
+onnxruntime==1.23.2
+pyserial==3.5
+trimesh==4.10.0
+xatlas==0.0.11
+scikit-image==0.25.2
+diffusers==0.32.2
+transformers==4.46.3
+accelerate==1.4.0
+safetensors==0.5.3
+omegaconf==2.3.0
+einops==0.8.1
+pymeshlab==2025.7.post1
+pygltflib==1.16.5
+ninja==1.13.2
+huggingface-hub==0.36.2
+tqdm==4.70.1

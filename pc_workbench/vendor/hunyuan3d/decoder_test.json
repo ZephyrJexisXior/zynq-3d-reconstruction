@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "test": "hierarchical decoder analytical sphere, 128 cells, radius .6",
+  "vertices": 27222,
+  "faces": 54440,
+  "watertight": true,
+  "p99_radius_error": 4.905910797003976e-05
+}

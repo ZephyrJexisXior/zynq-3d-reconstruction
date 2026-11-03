@@ -1,0 +1,52 @@
+{
+  "schema": "qian-front18-top4-plan/v1",
+  "capture_mode": "stop-and-shoot",
+  "positions": 18,
+  "front_photos_requested": 18,
+  "upper_photos_requested": 4,
+  "upper_camera_enabled": true,
+  "resolution": [
+    2592,
+    1944
+  ],
+  "signal_pin": "V7",
+  "motion_command_us": 1612,
+  "stop_command_us": 1500,
+  "move_duration_s": 0.58,
+  "move_durations_s": [
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58,
+    0.58
+  ],
+  "total_motion_s": 10.44,
+  "minimum_stop_s": 2.0,
+  "settle_before_sample_s": 1.0,
+  "angle_calibrated": false,
+  "full_turn_verified": false,
+  "sampling_note": "User requested 18 x 580ms; no angle feedback",
+  "upper_positions": [
+    0,
+    4,
+    9,
+    13
+  ],
+  "pair_capture": "parallel",
+  "hardware_synchronized": false,
+  "processing": "retained_PL_YCoCg_quality_FAST9_BRIEF256_mutual_Hamming",
+  "reconstruction_strategy": "OV5640_primary_with_four_upper_patches"
+}

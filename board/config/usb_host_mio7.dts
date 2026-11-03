@@ -1,0 +1,32 @@
+/dts-v1/;
+/plugin/;
+
+/* Diagnostic overlay only; not installed by this file. */
+/* Legacy ULPI binding for the installed Xilinx 5.4 kernel. */
+/* USB PHY reset is routed through the PS MIO reset signal, not Linux GPIO. */
+/ {
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            #address-cells = <1>;
+            #size-cells = <1>;
+            usb_phy_qian: usb-phy-qian@e0002000 {
+                compatible = "ulpi-phy";
+                #phy-cells = <0>;
+                reg = <0xe0002000 0x1000>;
+                view-port = <0x170>;
+                drv-vbus;
+            };
+        };
+    };
+
+    fragment@1 {
+        target-path = "/amba/usb@e0002000";
+        __overlay__ {
+            status = "okay";
+            dr_mode = "host";
+            phy_type = "ulpi";
+            usb-phy = <&usb_phy_qian>;
+        };
+    };
+};

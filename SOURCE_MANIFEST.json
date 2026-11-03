@@ -1,0 +1,862 @@
+[
+  {
+    "file": ".gitattributes",
+    "bytes": 93,
+    "sha256": "fffdd4d8df46dc8b5109baa44bdbb53a2e2a619c702fa77b54ff482f559e8a7f"
+  },
+  {
+    "file": ".github/workflows/source-check.yml",
+    "bytes": 488,
+    "sha256": "4b8f191e398206eff3698cd64e9bdea7abb61939cc9a0c9329f2bb9373a5cf1e"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 864,
+    "sha256": "ad5ec6f61e9b139f4c91e4b8b73bdb584af5b0e7ecf51273e57a6c5c66023286"
+  },
+  {
+    "file": "CHANGELOG.md",
+    "bytes": 751,
+    "sha256": "abd8531a31eb53d0f109cd35ebe10a4276e958205a673a607254a4cbaa347f4a"
+  },
+  {
+    "file": "LICENSE",
+    "bytes": 1373,
+    "sha256": "1ccf401ef75da1ce6d726e4182aa438219736bed006738a3e6f63ff3b5e6e0bf"
+  },
+  {
+    "file": "README.md",
+    "bytes": 4445,
+    "sha256": "2396ef9fe8de01b0da55c9a5ebc40600efa687b48f98c32443661a8eb1a15757"
+  },
+  {
+    "file": "SOURCE_ORIGINS.json",
+    "bytes": 32351,
+    "sha256": "c163a9601aac7d852c9f1e1b879fdab1e62aaa7177929fb9c65c4c0797173a93"
+  },
+  {
+    "file": "THIRD_PARTY_NOTICES.md",
+    "bytes": 1613,
+    "sha256": "7f736475525667d74a3bfe7e26bdf72c3f9ec9b076cb9b28e8ec679db6b50eb9"
+  },
+  {
+    "file": "board/config/usb_host_mio7.dtbo",
+    "bytes": 745,
+    "sha256": "f103bf27208fdd6613aa2a426807b36f7da243201068eb3c6d090ac438d759ec"
+  },
+  {
+    "file": "board/config/usb_host_mio7.dts",
+    "bytes": 855,
+    "sha256": "0fd1885a7097a0f99037cd3bd4558b7eb85b3dc1820f00b3883412a953f49ef8"
+  },
+  {
+    "file": "board/install_front18_top4_service.sh",
+    "bytes": 1970,
+    "sha256": "e4aa91a04601259bb8ba872cb4b75733995a269afac5454761bd6391a29deb54"
+  },
+  {
+    "file": "board/plan_front18_top4.json",
+    "bytes": 1077,
+    "sha256": "ad8a563268c0ece2798dbe7ecbda1879fd605d5874919501c96373d8d1083d07"
+  },
+  {
+    "file": "board/pynq_app/camera_init.py",
+    "bytes": 12565,
+    "sha256": "62476e69ae1cdb8c3536e5beec333d1434956316bdb8f8a8e98d2548b03c44a0"
+  },
+  {
+    "file": "board/pynq_app/camera_runtime.py",
+    "bytes": 2857,
+    "sha256": "4876326e05a54cbf1d573d36d079f96b386a25a1ee9f769084300235d8bc9b67"
+  },
+  {
+    "file": "board/pynq_app/concurrent_capture.py",
+    "bytes": 4818,
+    "sha256": "ba9ee80a2e573a4e292f65cc49a5515fa13effd1e2bfef356483bff03d9b18de"
+  },
+  {
+    "file": "board/pynq_app/concurrent_usb_top.py",
+    "bytes": 2415,
+    "sha256": "cc09004e328259976cb30b012b986daad7ec561110da50d5e39b46381e81c55e"
+  },
+  {
+    "file": "board/pynq_app/dual_view.py",
+    "bytes": 9546,
+    "sha256": "772c4b4268c93a1dd79458f9ef0d4756f68409fd0e5bf228d07673beea508286"
+  },
+  {
+    "file": "board/pynq_app/ethernet_stream.py",
+    "bytes": 7300,
+    "sha256": "dd14de057e5aed723772ff65a5f7c04a1d61389c259b262b48ce77d655132b02"
+  },
+  {
+    "file": "board/pynq_app/fast_lossless_png.py",
+    "bytes": 2160,
+    "sha256": "6aefe5754c1d6f332fd36460db4aa970dda208e9f4d05fe9ba475d1b96c21dff"
+  },
+  {
+    "file": "board/pynq_app/fpga_control.py",
+    "bytes": 31174,
+    "sha256": "5387abf27db485c3e459319c6d2159dfa0b82d372a398d9917a67e2dee4565ee"
+  },
+  {
+    "file": "board/pynq_app/front18_top4_capture.py",
+    "bytes": 3165,
+    "sha256": "fed9d81adc80e404133b4eecee1ef941f8f47d4f0c0730175ed2ae1f8c6863ea"
+  },
+  {
+    "file": "board/pynq_app/front_only_capture.py",
+    "bytes": 8328,
+    "sha256": "bc24f88abed13924d957e36271f05fe315020882df8f85ad0f821434f1ab6fc2"
+  },
+  {
+    "file": "board/pynq_app/main_front18_top4.py",
+    "bytes": 4607,
+    "sha256": "155e1599a3005cdc22e7eba1c2a0580208a23b574f2379588d7e369456e3ec2e"
+  },
+  {
+    "file": "board/pynq_app/main_ov5640_only.py",
+    "bytes": 4050,
+    "sha256": "d338c560fd57c67d7bb6882466e9ecfa5ac9d810c729f93d58f850133b45625d"
+  },
+  {
+    "file": "board/pynq_app/paired_quality_recovery.py",
+    "bytes": 3559,
+    "sha256": "9799ccf1befc3a1b69107e62056dbeebb046b4334919af4a6a6f83564d6f8166"
+  },
+  {
+    "file": "board/pynq_app/required_concurrent_usb_top.py",
+    "bytes": 1573,
+    "sha256": "a2aca5986d45f5b5d109fdc3445554ca77db25a0dcea9c1e956f461dee75dedd"
+  },
+  {
+    "file": "board/pynq_app/required_usb_pairs.py",
+    "bytes": 2744,
+    "sha256": "f2c51828737daef0148c3281e9bee3e5f3c116637f61d2bbb88ac1f2f8dda19a"
+  },
+  {
+    "file": "board/pynq_app/stop_capture.py",
+    "bytes": 9701,
+    "sha256": "92833315fdeadcf96b8209a46de0720c73a5442de5842e37fd03dcc0b5d41fd6"
+  },
+  {
+    "file": "board/pynq_app/usb_capture_worker.py",
+    "bytes": 7816,
+    "sha256": "1242a85a94bc83b74f1276be9336c277b210f56405c188d586b8c8c9678232b9"
+  },
+  {
+    "file": "board/pynq_app/usb_host_restore.py",
+    "bytes": 2525,
+    "sha256": "27ce6eb641276ea4f7c9e141e67b681dc05ffbd4828a223976c089bb20c193d5"
+  },
+  {
+    "file": "board/pynq_app/usb_top_capture.py",
+    "bytes": 12171,
+    "sha256": "e988cee50a52aac28e21966aa0b44d505957a5b4006c746db4e50146502d9fb4"
+  },
+  {
+    "file": "board/requirements.txt",
+    "bytes": 114,
+    "sha256": "56d58b7de33452b63af149497202225218792e873a131d517a7f1b9202019c93"
+  },
+  {
+    "file": "board/vivado/README.md",
+    "bytes": 384,
+    "sha256": "fb6cfe3b630c33b55fe7daacd2b9c937537ba8fdc5c7bc4dbc440fc544930f28"
+  },
+  {
+    "file": "docs/BASELINE.md",
+    "bytes": 1279,
+    "sha256": "f788095d1bb72bf0e80c7253eafa7e908fc0f05a2732811aa0abe58c68dc4a2e"
+  },
+  {
+    "file": "docs/DEPLOYMENT.md",
+    "bytes": 2489,
+    "sha256": "a332aea6a5cc788e391874f65b4a81a9b38c886f8a74dbc95a0db5c05f4b48de"
+  },
+  {
+    "file": "docs/FPGA_BUILD.md",
+    "bytes": 1881,
+    "sha256": "7b03a5721d7cea0dff7a43ef95785ed4e804c5fef4bfee24307edbf06febded1"
+  },
+  {
+    "file": "docs/GITHUB_UPLOAD.md",
+    "bytes": 971,
+    "sha256": "10d51999105c74e9d4df8c80735537d6d82fde3a69db941cbad859effa292220"
+  },
+  {
+    "file": "docs/HARDWARE.md",
+    "bytes": 1095,
+    "sha256": "3e54bdeab2649b5a8dbd5b72026178fa103b3a1543406a2ab5cef92914818f0d"
+  },
+  {
+    "file": "docs/VALIDATION.md",
+    "bytes": 1846,
+    "sha256": "789c92efd1ec7eb7fee605e2e97b8d3a4a9a2ad89f4df4a7a9745ad96356a86b"
+  },
+  {
+    "file": "docs/register_map_history.md",
+    "bytes": 8587,
+    "sha256": "b6a5bc26091b200fc3b41af6057ec963691b1fbdc3e622dc38494f7de6e9d066"
+  },
+  {
+    "file": "fpga/constraints/camera_sync.xdc",
+    "bytes": 369,
+    "sha256": "d0aaf81b2e882057c69f637ed72d76a227f6c452080edb45023fcb04533ed056"
+  },
+  {
+    "file": "fpga/constraints/pin.xdc",
+    "bytes": 4271,
+    "sha256": "1bc39ef9c3bb5965ed4b9d28e3257688d4765c883be035c3846f188a66c25175"
+  },
+  {
+    "file": "fpga/constraints/pl_key.xdc",
+    "bytes": 326,
+    "sha256": "f78312c80e51f84ec0fbad39202157b06b93700e046c3694574d164844cd0030"
+  },
+  {
+    "file": "fpga/constraints/servo_v7.xdc",
+    "bytes": 319,
+    "sha256": "546179f2211b100c6b69d29afba72d39fba5b391010f05224e659a510f50fdf2"
+  },
+  {
+    "file": "fpga/private_dependencies.json",
+    "bytes": 2094,
+    "sha256": "cefaa9a69c6ef0e1e1262727e23390ca1653ba93e3a946761a1c9512e647ea65"
+  },
+  {
+    "file": "fpga/scripts/build.tcl",
+    "bytes": 4353,
+    "sha256": "e9ede1a22f6901f5069e8c0acb7f54b9d516ada6e49a34661f58cb7df190feed"
+  },
+  {
+    "file": "fpga/source/ip_repo/camera_probe_sync.v",
+    "bytes": 2414,
+    "sha256": "f18027298216c81c8c64c70de6a101545a7661fa3d817e76d0e33dae6e8e9654"
+  },
+  {
+    "file": "fpga/source/ip_repo/camera_video_reset.v",
+    "bytes": 1182,
+    "sha256": "c44822c5f881b249adae11d4e193527212564a12011cb262400e434e02bca6a3"
+  },
+  {
+    "file": "fpga/source/ip_repo/dual_view/dual_view_pl.v",
+    "bytes": 30557,
+    "sha256": "da1e7d6724e3ee83c6906e5a786b5b606665fb21efba78ca2ef3f969eeae83b7"
+  },
+  {
+    "file": "fpga/source/ip_repo/image_process/image_process.v",
+    "bytes": 4982,
+    "sha256": "7823c76b8f6f6da80b7e1ebbbf208da7b57890cf0c8f34c65e7d499e48c07418"
+  },
+  {
+    "file": "fpga/source/ip_repo/image_process/image_process_axi.v",
+    "bytes": 60591,
+    "sha256": "35ddb38d254c63233bac75369a1dd08f0d81732c1b0f90d563e9e38e21889be9"
+  },
+  {
+    "file": "fpga/source/ip_repo/image_process/rgb_chroma_axis.v",
+    "bytes": 11426,
+    "sha256": "543e333969847a54f4231c72e09e73d12ad856ee6831d11f382b18f72b558dbb"
+  },
+  {
+    "file": "fpga/source/ip_repo/image_process/rgb_isp_axis.v",
+    "bytes": 31961,
+    "sha256": "4271673c2ca9ad678a3bbbd9b20c91084111e53514d5367976545af873443487"
+  },
+  {
+    "file": "fpga/source/ip_repo/image_process/rgb_isp_ycocg_axis.v",
+    "bytes": 1903,
+    "sha256": "7c9803a7ffb2cb16e0a9a462fbfcb12d67f51552fdb286b81118c9f9c4b28372"
+  },
+  {
+    "file": "fpga/source/ip_repo/image_process/rgb_sharpen_axis.v",
+    "bytes": 8415,
+    "sha256": "aa2891031d8b83c5ee913a0e3a63bca144eef645a40aebb85533e4c9ec96e2bf"
+  },
+  {
+    "file": "fpga/source/ip_repo/servo_key_capture.v",
+    "bytes": 3526,
+    "sha256": "6002f5649f1996e62bcd67aaee75c7d45f98b1c87fc19e5a9a18bff6cfc4b943"
+  },
+  {
+    "file": "fpga/source/system.bd",
+    "bytes": 158790,
+    "sha256": "25ec3f503010b4928e1e37ebcaec4823f77d7ea0ccde36507894982a4d7f6773"
+  },
+  {
+    "file": "pc_capture/capture_session.py",
+    "bytes": 6801,
+    "sha256": "b87f4d7e5e957ef690141d1cb0fa48a18eb0d2199d7a72e77b1afbb67163d80e"
+  },
+  {
+    "file": "pc_capture/ethernet_viewer.py",
+    "bytes": 16591,
+    "sha256": "bacfa9e032c9749c0e239b3a4d3c66eb80e1f21f5a300f06255ab6f0e3c9bda9"
+  },
+  {
+    "file": "pc_capture/requirements.txt",
+    "bytes": 20,
+    "sha256": "3dce4151fb6e825170459fb0ff5f2bd4db1a33c5f47882befa29ed25cc17c779"
+  },
+  {
+    "file": "pc_workbench/.gitignore",
+    "bytes": 432,
+    "sha256": "01ebc54342a42f2e20ac4a54d2b2ab71de198af5c4b0828ab071b78fddb3a759"
+  },
+  {
+    "file": "pc_workbench/CreateShortcut.ps1",
+    "bytes": 593,
+    "sha256": "2c8c4f001dc664fbe4d72ce694e4d08c65db768bff73e42f1e1b767e9d3472ec"
+  },
+  {
+    "file": "pc_workbench/Install.ps1",
+    "bytes": 1536,
+    "sha256": "852c883bfbcbe51e1178ed37cf53771b3eabad63708a44926d9341bb57a19a0d"
+  },
+  {
+    "file": "pc_workbench/Launch.ps1",
+    "bytes": 6067,
+    "sha256": "5115cc36fbf9321b8ff10df4f3a39732139a5fa28429e7f61a1770a0150a0e0c"
+  },
+  {
+    "file": "pc_workbench/Launch.vbs",
+    "bytes": 260,
+    "sha256": "36a8a865b6518b2266c543c89b0cc0e03e3917135271a9a34d23c2c6857e7875"
+  },
+  {
+    "file": "pc_workbench/README.md",
+    "bytes": 5361,
+    "sha256": "b40767ce4c82ca3ddd94ed88462f5152a7d97a1b27a75a6fa6ed27c9e92ce133"
+  },
+  {
+    "file": "pc_workbench/config/default.json",
+    "bytes": 607,
+    "sha256": "9e00d05bda8cf84017dca47ff909138ea9d67492325ca247b8146058771702dc"
+  },
+  {
+    "file": "pc_workbench/config/isnet_source.json",
+    "bytes": 896,
+    "sha256": "903e83afa90611132cc97e5ed8995edada108574389fe0041ab33d7c3f73b149"
+  },
+  {
+    "file": "pc_workbench/config/lightglue_source.json",
+    "bytes": 260,
+    "sha256": "51e847b1c190c75eb654dbf8606d43970438c0dd1fb77a5ee948a5288acbf702"
+  },
+  {
+    "file": "pc_workbench/config/双摄接入协议.md",
+    "bytes": 1535,
+    "sha256": "6189e6a9ccb5be7de6aa5e661b41144c955798000cc4343da8a59839d51e65bf"
+  },
+  {
+    "file": "pc_workbench/docs/本机使用与历史记录.md",
+    "bytes": 21635,
+    "sha256": "e4cef2c8c6b61c91ab1a87fba6f1953e1bec9161e8c1ba30384e0d946b6874b3"
+  },
+  {
+    "file": "pc_workbench/licenses/Hunyuan3D_LICENSE.txt",
+    "bytes": 17829,
+    "sha256": "94259df223918a5733677965c1bfe1774a2dba25042d9c3b47a3418ea6c1f324"
+  },
+  {
+    "file": "pc_workbench/licenses/Hunyuan3D_NOTICE.txt",
+    "bytes": 32065,
+    "sha256": "9ef89c88faf6fa97a7cc9ffc15deec7a8c27fb7ac9bca1f57e2884a5f8d48f42"
+  },
+  {
+    "file": "pc_workbench/licenses/ISNet_LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "pc_workbench/licenses/THIRD_PARTY.md",
+    "bytes": 2352,
+    "sha256": "1bcd5393141bc25300d1d19d649aa6ec5501bab0310ad853f014c5c4cf75698a"
+  },
+  {
+    "file": "pc_workbench/licenses/learned_matching/LightGlue-LICENSE.txt",
+    "bytes": 11541,
+    "sha256": "610b46052c892f43bb448c63b0d6609a3dd24d5c16fe59624f7d047b32a942bb"
+  },
+  {
+    "file": "pc_workbench/licenses/learned_matching/LightGlue-ONNX-LICENSE.txt",
+    "bytes": 11588,
+    "sha256": "cd5ab5ccf6e0c89935b37e9d7102792897160b5e260a406ada75903c3881eb54"
+  },
+  {
+    "file": "pc_workbench/licenses/learned_matching/SuperPoint-LICENSE.txt",
+    "bytes": 7062,
+    "sha256": "4d8485e7981d4b20e0ad6a2786ebd57d885265ddc97f5896a430809dde628c21"
+  },
+  {
+    "file": "pc_workbench/licenses/learned_matching/THIRD_PARTY_NOTICES.md",
+    "bytes": 1465,
+    "sha256": "e35664d7c15f401d9af1c22d3a644109b59d027d767b9f0d1be3fe59dc0f1d9e"
+  },
+  {
+    "file": "pc_workbench/licenses/lit_LICENSE.txt",
+    "bytes": 1561,
+    "sha256": "c94b94b40b85a5083dea825ae844b1cedb40dd425685362c135e143265dd6cd4"
+  },
+  {
+    "file": "pc_workbench/licenses/model-viewer_LICENSE.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "pc_workbench/licenses/rembg_LICENSE.txt",
+    "bytes": 1069,
+    "sha256": "90a3215072968fd304669c5389f04f1274a587abdd0507d99dead0f5511f8999"
+  },
+  {
+    "file": "pc_workbench/licenses/threejs_LICENSE.txt",
+    "bytes": 1081,
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  {
+    "file": "pc_workbench/licenses/xatlas_python_LICENSE.txt",
+    "bytes": 1092,
+    "sha256": "42748bf52af17692c091202a3b584a84037536bbf0c421fc8531e0693567dcf3"
+  },
+  {
+    "file": "pc_workbench/requirements-startup.txt",
+    "bytes": 146,
+    "sha256": "a9bd3078648753d7a6af39f9f87eceb7c932e909ff1a36eaf54a2232df1f4749"
+  },
+  {
+    "file": "pc_workbench/requirements.txt",
+    "bytes": 428,
+    "sha256": "f5bcbaa49dd7d368b96582a9b13ff3d194f162b4e41eaf85cc5764b752e618b0"
+  },
+  {
+    "file": "pc_workbench/server.py",
+    "bytes": 14092,
+    "sha256": "1aea57c77c7fe4752c8f08052c79b79a71ad9271a956f3c761627497032f7178"
+  },
+  {
+    "file": "pc_workbench/studio/__init__.py",
+    "bytes": 79,
+    "sha256": "480396ef563009fd229006aa40a94f6e1c990c356cf836acda0bf97c4b659f02"
+  },
+  {
+    "file": "pc_workbench/studio/capture.py",
+    "bytes": 4125,
+    "sha256": "6d4d871b3680a6615141d3f7cb296e029257d579f76d0cecb4d73d760c984909"
+  },
+  {
+    "file": "pc_workbench/studio/capture_import.py",
+    "bytes": 2607,
+    "sha256": "ddaa59b8d6f00ed001b434a13d67be2aaedb92c1ed53940bfbf7ca73dff83647"
+  },
+  {
+    "file": "pc_workbench/studio/common.py",
+    "bytes": 1888,
+    "sha256": "b81a81cfa9c2efe2750afcaf1980ebff514004ee5f2a8de620ba0cf6f85f74c4"
+  },
+  {
+    "file": "pc_workbench/studio/direction_geometry.py",
+    "bytes": 5357,
+    "sha256": "259261c2973b6238f5920f5f41e4f7e6ec960e2a2a462102192046952e33ddfd"
+  },
+  {
+    "file": "pc_workbench/studio/foreground_boundary.py",
+    "bytes": 2680,
+    "sha256": "a23e83b02c83846ce7dbea6fe057536e316a6f3a60a5f190ae27f559c149ef7d"
+  },
+  {
+    "file": "pc_workbench/studio/hardware.py",
+    "bytes": 6442,
+    "sha256": "3bd75c9cd4a18b507896b2e3a92d6cafb89925822e4166ee642a2457e717a85a"
+  },
+  {
+    "file": "pc_workbench/studio/ingest.py",
+    "bytes": 7948,
+    "sha256": "6ae15b38718b6267104f04261f09bce19efa4667e000e88bc4545b083a6b8d02"
+  },
+  {
+    "file": "pc_workbench/studio/jobs.py",
+    "bytes": 34771,
+    "sha256": "7a20bcccd4a52c5a76dde2c03692d60488a304f39173c0fd3d915787ac2afc61"
+  },
+  {
+    "file": "pc_workbench/studio/learned_directions.py",
+    "bytes": 5506,
+    "sha256": "ebbe09a1587786aa85dde521a6a5481c5f97e68206f61f4003ed619d6b92c50a"
+  },
+  {
+    "file": "pc_workbench/studio/pose_audit.py",
+    "bytes": 2557,
+    "sha256": "c0971995050cc92ceb1e2f034a2650928305ff24a908b85a0366ae140c42ad29"
+  },
+  {
+    "file": "pc_workbench/studio/process_tree.py",
+    "bytes": 2252,
+    "sha256": "f6a8ada3754f539937d806d8439577fba7d903e30091acfcf46bc3d317d7ce24"
+  },
+  {
+    "file": "pc_workbench/studio/processing.py",
+    "bytes": 6133,
+    "sha256": "502a9cfc323035c1d03e9f4fd27f03ef3509c84ea9b73dc92f48c175cdf19640"
+  },
+  {
+    "file": "pc_workbench/studio/quick_views.py",
+    "bytes": 1258,
+    "sha256": "19df47e944d570d398ffa282ad690de27632683c168a6bd53bce3f3ee9e7548a"
+  },
+  {
+    "file": "pc_workbench/studio/texture_geometry.py",
+    "bytes": 8444,
+    "sha256": "a03b29cdb5a2bd1ef074d979c2be99af31f96a9e8e591fc9707a5dc8ba307d7c"
+  },
+  {
+    "file": "pc_workbench/studio/texture_refinement.py",
+    "bytes": 10954,
+    "sha256": "97ae087b396272224d3ecb306fb128825f28be0c5ee40407afe99a115ea5b32f"
+  },
+  {
+    "file": "pc_workbench/studio/turntable.py",
+    "bytes": 1886,
+    "sha256": "aef3c07700df1bbc118caf4e70c0293c516f777ff63aac92031f2a425d026772"
+  },
+  {
+    "file": "pc_workbench/studio/turntable_pose.py",
+    "bytes": 10290,
+    "sha256": "2e965d790ca28e1e99aae1204742398177c178be49fba2cd4e561cdae448a81b"
+  },
+  {
+    "file": "pc_workbench/tests/test_foreground_boundary.py",
+    "bytes": 2410,
+    "sha256": "f293a576346b64debea626a6e6a55723bbbbb6878eef324cc6589ece9d1d3efb"
+  },
+  {
+    "file": "pc_workbench/tests/test_front_and_color.py",
+    "bytes": 6376,
+    "sha256": "6630096b1068ae74859fabc059ff21d6d3a8588bfb39f65e30783162c4009c79"
+  },
+  {
+    "file": "pc_workbench/tests/test_independent_gray.py",
+    "bytes": 3832,
+    "sha256": "8720b10b3e9f0325daa5fd55c6b6454dd52702dbda8fc25ebcee5d93540ff0c0"
+  },
+  {
+    "file": "pc_workbench/tests/test_one_click.py",
+    "bytes": 15912,
+    "sha256": "4b8abbecb55add73b693a0baca7e9ac5c952154f207c07a93c1c3144bed78ed5"
+  },
+  {
+    "file": "pc_workbench/tests/test_protocol.py",
+    "bytes": 13283,
+    "sha256": "9da89591c2e8590938df31a4310f15f5d3c3a611e3a3a37a143ea824dedc9df4"
+  },
+  {
+    "file": "pc_workbench/tests/test_startup.py",
+    "bytes": 2224,
+    "sha256": "49c7341e0d8c8468eb65809be946c61506ba6ecc4cfdc1d5ad163848457ee8e2"
+  },
+  {
+    "file": "pc_workbench/tests/test_studio.py",
+    "bytes": 10301,
+    "sha256": "9bbbcdf0840b3bfde95b67717bec7bc5fb385ee53e3b53c0182db9099de25575"
+  },
+  {
+    "file": "pc_workbench/tests/test_texture.py",
+    "bytes": 3483,
+    "sha256": "f3791ebdeb02487a1625edf7c139cfdf875044496578674bd5d5a3c3cfe6ca9a"
+  },
+  {
+    "file": "pc_workbench/tests/test_texture_refinement.py",
+    "bytes": 2813,
+    "sha256": "f1438b41a9993927cedc99dbf6a2c34115d36c6ecfc0849994b7a1a63162d8f4"
+  },
+  {
+    "file": "pc_workbench/tests/test_turntable_pose.py",
+    "bytes": 2945,
+    "sha256": "9d7e5c1abc30849207922a6e0cf64e54bb37278f981568a0c0767a524829ee22"
+  },
+  {
+    "file": "pc_workbench/tools/build_gray.py",
+    "bytes": 8287,
+    "sha256": "e0a1faba0a41eec024c9e990da88003bbddfdb7e64c0e29cb8bf66409b32cbc7"
+  },
+  {
+    "file": "pc_workbench/tools/check_startup.py",
+    "bytes": 787,
+    "sha256": "686702d2773085c9965d8fb57fe9b9faace6c27068e4fc1d22c5f3856fad1d29"
+  },
+  {
+    "file": "pc_workbench/tools/choose_folder.py",
+    "bytes": 336,
+    "sha256": "5006bfcbc3343fd2e9c9b6bb117c22e7972437f9930ef118ed051c1f0a90766d"
+  },
+  {
+    "file": "pc_workbench/tools/download_models.py",
+    "bytes": 2602,
+    "sha256": "b1e6debba866d8e6b5050c0f0bfc484486aa8bebbd72da8e3975cdb1099c3b4e"
+  },
+  {
+    "file": "pc_workbench/tools/export_model.py",
+    "bytes": 2976,
+    "sha256": "ffe207afeab7cba2bc0ae34a8a27d9bb87f4dc1a3c0491b9e5ac302bafa0313d"
+  },
+  {
+    "file": "pc_workbench/tools/generate_shape.py",
+    "bytes": 7918,
+    "sha256": "905b4ef0a72055924125018225aa057812a6422bcb8dd947409015f05c5c5a68"
+  },
+  {
+    "file": "pc_workbench/tools/package_source.py",
+    "bytes": 2481,
+    "sha256": "ad19c01e5e2ed33622221c25a737e97e684904eeb10cdb18cce163c1a193c25f"
+  },
+  {
+    "file": "pc_workbench/tools/segment_views.py",
+    "bytes": 4240,
+    "sha256": "ed3277f5f14950bee777f57ca49e3df6a4c86a8a73653fcaa2bd435fc5d1b4d4"
+  },
+  {
+    "file": "pc_workbench/tools/select_directions.py",
+    "bytes": 18926,
+    "sha256": "9300f7a2248de44aeedba22073a7f211c3203d0def1a486e830e02fe75b00bc8"
+  },
+  {
+    "file": "pc_workbench/tools/select_ring_subset.py",
+    "bytes": 1905,
+    "sha256": "e44bd349fabf8eb943250d80ef719628a157131e5e243a40af644aecaefddd81"
+  },
+  {
+    "file": "pc_workbench/tools/texture_photos.py",
+    "bytes": 15441,
+    "sha256": "c6f9a3506bcaa46d6e2b69d7abb356b1ffa38de3269b085cf1bad6a0a2802df3"
+  },
+  {
+    "file": "pc_workbench/tools/ui_inspect.cjs",
+    "bytes": 1354,
+    "sha256": "28b7b6b22cd1771a105fe0fb2d6ed036fed11e886b28a6e195304665fbca621c"
+  },
+  {
+    "file": "pc_workbench/tools/ui_review_test.cjs",
+    "bytes": 3051,
+    "sha256": "1d822a69b17ab116808362fa7393714b3bb9fb7d42245fd4ef03b822d8798ac4"
+  },
+  {
+    "file": "pc_workbench/tools/ui_smoke.cjs",
+    "bytes": 3793,
+    "sha256": "b185d94908fa8e813711f7f42ce22e8b5fff67e07462883b1473beb232a7c86e"
+  },
+  {
+    "file": "pc_workbench/vendor/fpga/protocol.py",
+    "bytes": 4839,
+    "sha256": "8156b83749ac09220a451da873e5f17b209e9e583923e92d1f0430bf158d73a8"
+  },
+  {
+    "file": "pc_workbench/vendor/fpga/receiver.py",
+    "bytes": 21080,
+    "sha256": "8674ed0ab3b82bff6704e4c25cd3b7a51c2e32e7482ac9c7a80da1ea08cc4e24"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/config.yaml",
+    "bytes": 1667,
+    "sha256": "4d9d7b21dd0669efd0a8da6024ecce28619b45a4ca5f3ea1394a54b3d38698f5"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/decoder_test.json",
+    "bytes": 207,
+    "sha256": "00d7e0e06580de3ccee7bd65cdc974db07cd90b7ab5c561411268b7a78af62d2"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/__init__.py",
+    "bytes": 920,
+    "sha256": "e1a0f10f65a41667fadafc1fa2fe31a5b2c7f5dea7a659b3039e029d75ce1db0"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/__init__.py",
+    "bytes": 1181,
+    "sha256": "d233d923a912621c986201e482b1c7b9a5fc014974e6bb952ceb7b36f3c4020f"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/__init__.py",
+    "bytes": 1665,
+    "sha256": "2f56106c91dfc126f3e20551e8a7a48f049be7b33eda814ae1c184bc979328fe"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/__init__.py",
+    "bytes": 1360,
+    "sha256": "f1c91751fa8db7ecf531189aae33a59b5b9e3e10aa0d524edf33f6857eea8cfd"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/attention_blocks.py",
+    "bytes": 26121,
+    "sha256": "86590fe6b7dae1e3250d08df8291bc2825f754663a2335f31887c5f8065b6ed0"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/attention_processors.py",
+    "bytes": 3913,
+    "sha256": "9a461ddde9a2bf5ca0cd3961c3c1b86f9c81772066fe5b815bc497e0b5a8f053"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/model.py",
+    "bytes": 10461,
+    "sha256": "22ea23cb832017e628f139b06743de5ef54c4fcb298f532f94c99a4a25996893"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/surface_extractors.py",
+    "bytes": 4126,
+    "sha256": "44b5d3c7b5b0e9333e3cc8ae4264ef4d9e0bafbaabe9177ea1ab96e12c545e3c"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/autoencoders/volume_decoders.py",
+    "bytes": 19094,
+    "sha256": "9b94d32b5070c09470e246aec8804bc5a202087695aac199bf3c59bac11227fd"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/conditioner.py",
+    "bytes": 9192,
+    "sha256": "c735ef7abbdd0fad089e684a237ef30a6cb7616c2faa49a30571d3640c2865c9"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/__init__.py",
+    "bytes": 961,
+    "sha256": "8ab24870a628fb94a3d903d7d149d3eb3d20b32cadf8f6680c6e457562384a41"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/hunyuan3ddit.py",
+    "bytes": 14984,
+    "sha256": "0288db52767927a03bbbd687eba253f4567493d3d6c24c97b289ea7a1acd13c3"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/hunyuandit.py",
+    "bytes": 21440,
+    "sha256": "b9a51ac5338c6f886f4312a5967933a23969fb293cfc5c0b9c40236207cf89b5"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/models/denoisers/moe_layers.py",
+    "bytes": 6352,
+    "sha256": "afd9ca7511c2cd028d220f18c4b4e31a457cda19a1de34bfb925af663a24f3af"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/pipelines.py",
+    "bytes": 31934,
+    "sha256": "3eb438997fca59f682866f529f1984d4852d717577c24743e5d9bfd5566fa467"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/postprocessors.py",
+    "bytes": 7060,
+    "sha256": "3899ef49fbc7453553d264d16c14305a9ee9c6f8a3341a8850b960f018640a17"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/preprocessors.py",
+    "bytes": 5992,
+    "sha256": "284dc24fabbf974bd6793ebd58e95b7700550d90371cacb96ad0889ec558de1e"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/schedulers.py",
+    "bytes": 18997,
+    "sha256": "d3b25b84dac26f0e862cfc866da08df2d6592f01a0aaeda965782ab0fc1d8bba"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/surface_loaders.py",
+    "bytes": 6182,
+    "sha256": "59498b96540d3915c1afbdb52fa125b6e4564c6261a54de2d402a729b0ffc624"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/hy3dgen/shapegen/utils.py",
+    "bytes": 4526,
+    "sha256": "434987747ec07c734b64cc933f7829bf6d10800a7c5e97f649547aa5979c1fbd"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/local_patches.json",
+    "bytes": 624,
+    "sha256": "bdbd1e84dfe462c4550775aa140d8bd4b21f1ea9d6620186d1f0f37c02d0b39e"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/upstream.json",
+    "bytes": 127,
+    "sha256": "5f1d1a03d37f2224ea7041fdb93d87fcc296db3817fd8c2ea5cfbaa1c01f56bb"
+  },
+  {
+    "file": "pc_workbench/vendor/hunyuan3d/weight_source.json",
+    "bytes": 243,
+    "sha256": "dea7997024d4a2291c18c672a1c88504d5be19a333ea7c34cd01b84ff0446a76"
+  },
+  {
+    "file": "pc_workbench/vendor/viewer/model-viewer.min.js",
+    "bytes": 979139,
+    "sha256": "8367184a607fbe07a78b650c0d359e5ebbd96f7e2b22f95f761f559b63430386"
+  },
+  {
+    "file": "pc_workbench/web/app.js",
+    "bytes": 27230,
+    "sha256": "c0772aba5f629f04d095dd788d6948fea0ec373e897a1a1fdd7a271b3e6df3dd"
+  },
+  {
+    "file": "pc_workbench/web/index.html",
+    "bytes": 8541,
+    "sha256": "3628a8a6671fdb558ef03d51440d8d9fc3bb86ec818ea616e79a26ce58e8a8b4"
+  },
+  {
+    "file": "pc_workbench/web/style.css",
+    "bytes": 5949,
+    "sha256": "1cd86cb618a5c65778c4a10481db45e83d773819b3acb0b6ba514ba0c6f6301a"
+  },
+  {
+    "file": "pc_workbench/上传说明.md",
+    "bytes": 1169,
+    "sha256": "461f4880b8f53e86820556df3125362e1f461910ff8388cd2d507aac74fcf90f"
+  },
+  {
+    "file": "pc_workbench/启动建模.cmd",
+    "bytes": 40,
+    "sha256": "4d547c1e6c1259a8727d29a11605a9949eb9f8fa69992f6e420dabdda0bed61b"
+  },
+  {
+    "file": "pc_workbench/验证说明.md",
+    "bytes": 23270,
+    "sha256": "e5afe691679fec079fd236d606c5038de38f707910cecd712e0c8a5e3e1d371c"
+  },
+  {
+    "file": "requirements-test.txt",
+    "bytes": 69,
+    "sha256": "0053f319e82532047314acf4e1e26308c9763d0f73123a474a96f0e8d8539f58"
+  },
+  {
+    "file": "tests/offline_hardware.py",
+    "bytes": 404,
+    "sha256": "4898cc5129f2138081d6bd2566707d98fc546b5b74c8d17fc4d9093395b1066f"
+  },
+  {
+    "file": "tests/test_concurrent_capture.py",
+    "bytes": 3574,
+    "sha256": "172b1d2ff3f3894af3fabff8c3efb71ed1fc89206a225d606880933686e5bc85"
+  },
+  {
+    "file": "tests/test_fast_storage.py",
+    "bytes": 4488,
+    "sha256": "14cb357d1ad51d5440f6be8e2c58b6f47670330dbe276ef39b917c4a22d567af"
+  },
+  {
+    "file": "tests/test_front18_top4_580ms.py",
+    "bytes": 4376,
+    "sha256": "08502f99c01cdc6f3c037b5acbecd9aaa7a64e68a90751ebf82cc5f4cab3442b"
+  },
+  {
+    "file": "tools/import_private_dependencies.py",
+    "bytes": 2956,
+    "sha256": "fd5d80ad04ce5dc0c73a00431367d57e587af6232f91920256097ab636c10aff"
+  },
+  {
+    "file": "tools/package_source.py",
+    "bytes": 1274,
+    "sha256": "a1b61e5d0108c0e2ab7080b1d3c20d5aac28677dd8f91830b2e342b94f5a26b3"
+  },
+  {
+    "file": "tools/verify_source.py",
+    "bytes": 5549,
+    "sha256": "2798770255eed128b2645f557d1401f76d45f2f2a1af7b86c6c1bd240fb5b1b1"
+  },
+  {
+    "file": "启动建模.cmd",
+    "bytes": 69,
+    "sha256": "3b56132892c596df267efc338a8636aa99673b68adbac1c89c5f50e343ac944e"
+  }
+]

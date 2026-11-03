@@ -1,0 +1,6 @@
+{
+  "url": "https://github.com/fabio-sim/LightGlue-ONNX/releases/download/v2.0/superpoint_lightglue_pipeline.onnx",
+  "sha256": "228994cea8c010146fa2aef933baa3ffaa4bcdc522bc8aa560087fcff8134526",
+  "bytes": 51182095,
+  "provider": "CPUExecutionProvider"
+}

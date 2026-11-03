@@ -1,0 +1,63 @@
+{
+  "schema": "qian-private-dependencies/v1",
+  "vendor_ip": [
+    {
+      "file": "rgb2lcd/if/lcd/lcd.xml",
+      "sha256": "2c564e27b6dbf6cc80790c165bc5e58cba51738f0a50807ded0591455c7d0069",
+      "bytes": 711
+    },
+    {
+      "file": "rgb2lcd/if/lcd/lcd_rtl.xml",
+      "sha256": "a42ae569da782a8915f2cd3379a8c3e833ddf6298a91709d8093f0379a7676e8",
+      "bytes": 3403
+    },
+    {
+      "file": "rgb2lcd/ip/component.xml",
+      "sha256": "c4c22935c38cde11795f5e246130932f9713d05b12dad1f7586551b6b094d06f",
+      "bytes": 31501
+    },
+    {
+      "file": "rgb2lcd/ip/src/rgb2lcd.v",
+      "sha256": "b7a6b1b737fb15a3fc5812326d1d5374254d7ad2feda229f31028d5507eff6f8",
+      "bytes": 2736
+    },
+    {
+      "file": "rgb2lcd/ip/xgui/rgb2lcd_v1_0.tcl",
+      "sha256": "ff7e21d65eb6858a3d60277d60f7163ed36bb2a3aa6cc0fa160a1b6e3c724609",
+      "bytes": 933
+    },
+    {
+      "file": "ov5640_capture_data/component.xml",
+      "sha256": "8daac2b25eacbeaa6b24d2e62e39efa912a05d7d4895c6546e96d8792241799b",
+      "bytes": 22145
+    },
+    {
+      "file": "ov5640_capture_data/src/ov5640_capture_data.v",
+      "sha256": "b6f34c13d76b0f9247ef2d406e3ca36412a8dc077af73ad6cd69b4c6d0a191da",
+      "bytes": 5126
+    },
+    {
+      "file": "ov5640_capture_data/xgui/ov5640_capture_data_v1_0.tcl",
+      "sha256": "e281cd7c8a1574f978248df532579526eb62f3631fcf50ec6e7b9e0c7a5102ab",
+      "bytes": 885
+    }
+  ],
+  "known_deployed_overlay": [
+    {
+      "file": "camera_5mp_quality.bit",
+      "sha256": "d262ce1c09e6b707f601509177f1b73a048bb7afba4db95eccb0ca7036d33168",
+      "bytes": 4045769
+    },
+    {
+      "file": "camera_5mp_quality.hwh",
+      "sha256": "116d416dbbb12d3d455f35a23664154d4e6ae7432ef2c2cd57c00ed6cf78abd5",
+      "bytes": 723381
+    },
+    {
+      "file": "camera_5mp_quality.ltx",
+      "sha256": "6d377da81525e525c2454aae013dc6d6fdc28d58be460818a5ba08b2f088131a",
+      "bytes": 41991
+    }
+  ],
+  "note": "Vendor IP/compiled overlay are not redistributed. Import from a lawfully held local copy, or build with authorized IP. Rebuilding is not a bit-identical guarantee."
+}
