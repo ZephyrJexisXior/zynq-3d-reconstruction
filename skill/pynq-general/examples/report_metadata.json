@@ -1,0 +1,6 @@
+{
+  "project": "example accelerator",
+  "board": "replace with exact board and part",
+  "tool_version": "replace with Vivado version",
+  "source_revision": "replace with git commit"
+}

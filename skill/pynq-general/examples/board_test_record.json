@@ -1,0 +1,72 @@
+{
+  "schema": "pynq-board-test-record/v1",
+  "status": "incomplete",
+  "identity": {
+    "project": "FILL_ME",
+    "source_revision": "FILL_ME",
+    "board_model": "FILL_ME",
+    "fpga_part": "FILL_ME",
+    "pynq_version": "FILL_ME",
+    "vivado_version": "FILL_ME",
+    "overlay_bit_path": "FILL_ME",
+    "overlay_hwh_path": "FILL_ME",
+    "bit_sha256": "FILL_ME",
+    "hwh_sha256": "FILL_ME"
+  },
+  "contract": {
+    "expected_ips": ["FILL_ME"],
+    "register_contract_path": "FILL_ME",
+    "dma_type": "FILL_ME",
+    "input_format": "FILL_ME",
+    "output_format": "FILL_ME",
+    "dimensions": [null, null],
+    "stride_bytes": null,
+    "clock_hz": null
+  },
+  "tests": [
+    {
+      "name": "artifact_pair_and_hashes",
+      "result": "not_run",
+      "evidence": []
+    },
+    {
+      "name": "overlay_ip_and_register_probe",
+      "result": "not_run",
+      "evidence": []
+    },
+    {
+      "name": "known_vector_golden_comparison",
+      "result": "not_run",
+      "input_sha256": "FILL_ME",
+      "reference_sha256": "FILL_ME",
+      "actual_sha256": "FILL_ME",
+      "comparison_report": "FILL_ME",
+      "evidence": []
+    },
+    {
+      "name": "repeated_transfer_and_error_handling",
+      "result": "not_run",
+      "iterations": null,
+      "failures": null,
+      "timeouts": null,
+      "evidence": []
+    }
+  ],
+  "performance": [
+    {
+      "stage": "FILL_ME",
+      "samples": [],
+      "units": "ms",
+      "measurement_method": "FILL_ME"
+    }
+  ],
+  "build_reports": {
+    "utilization_report": "FILL_ME",
+    "timing_report": "FILL_ME",
+    "generated_summary": "FILL_ME"
+  },
+  "notes": [],
+  "operator": "FILL_ME",
+  "started_at": "FILL_ME",
+  "completed_at": "FILL_ME"
+}

@@ -43,6 +43,7 @@ flowchart LR
 - `pc_capture/`：原协议电脑接收与诊断工具，作为独立接收入口保留。
 - `tools/`：本地依赖导入、源码完整性检查及打包工具。
 - `tests/`：采集分配、PNG无损保存和软件并行取帧的离线测试。
+- `skill/`：可移植的通用 PYNQ Skill，含 Overlay 校验、AXI DMA 缓存同步、寄存器契约生成、黄金参考比对、Vivado 报告汇总、提示词模板与踩坑清单；不依赖本项目相机或舵机。
 - `docs/`：接线、部署、构建、数据接口、验证范围和GitHub上传说明。
 
 ## 开始使用
@@ -75,6 +76,8 @@ python -m unittest discover -s tests -v
 
 离线测试依赖NumPy、OpenCV、Pillow、SciPy；不控制舵机，也不验证完整GPU推理或新位流上板。
 具体检查结果见[发布验证记录](docs/VALIDATION.md)。本包未创建或推送GitHub仓库。
+
+通用 PYNQ 技能包的适用范围、逐项用法、验证结果、失效条件和来源证据见 [`skill/pynq-general/README.md`](skill/pynq-general/README.md)。其中离线 mock 测试不等同于目标开发板验证。
 
 ## 许可与第三方
 

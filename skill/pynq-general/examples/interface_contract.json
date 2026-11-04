@@ -1,0 +1,10 @@
+{
+  "schema": "pynq-register-contract/v1",
+  "name": "generic_stream_accelerator",
+  "registers": [
+    {"name": "control", "offset": 0, "access": "rw", "description": "Start and mode bits"},
+    {"name": "status", "offset": 4, "access": "ro", "description": "Busy and done flags"},
+    {"name": "input_bytes", "offset": 8, "access": "rw", "description": "Input transfer length"},
+    {"name": "output_bytes", "offset": 12, "access": "ro", "description": "Output transfer length"}
+  ]
+}

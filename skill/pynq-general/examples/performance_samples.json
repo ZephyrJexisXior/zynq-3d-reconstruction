@@ -1,0 +1,5 @@
+[
+  {"stage": "dma_round_trip", "elapsed_ms": 4.81, "bytes": 65536},
+  {"stage": "dma_round_trip", "elapsed_ms": 4.76, "bytes": 65536},
+  {"stage": "dma_round_trip", "elapsed_ms": 4.89, "bytes": 65536}
+]

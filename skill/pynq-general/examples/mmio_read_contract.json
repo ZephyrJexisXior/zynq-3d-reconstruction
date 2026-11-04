@@ -1,0 +1,13 @@
+{
+  "schema": "pynq-read-only-mmio-contract/v1",
+  "ips": {
+    "image_process_0": {
+      "registers": [
+        {"name": "version", "offset": 28, "access": "ro", "expected": 327690},
+        {"name": "status", "offset": 8, "access": "ro", "expected": null},
+        {"name": "width", "offset": 96, "access": "ro", "expected": 2592},
+        {"name": "height", "offset": 100, "access": "ro", "expected": 1944}
+      ]
+    }
+  }
+}

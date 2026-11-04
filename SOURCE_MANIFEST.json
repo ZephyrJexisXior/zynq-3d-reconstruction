@@ -26,8 +26,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 4445,
-    "sha256": "2396ef9fe8de01b0da55c9a5ebc40600efa687b48f98c32443661a8eb1a15757"
+    "bytes": 4898,
+    "sha256": "d5353fea86d788cb8a0eacdc60f8fb22782cba93c88e2048118ecc35a82bd726"
   },
   {
     "file": "SOURCE_ORIGINS.json",
@@ -818,6 +818,111 @@
     "file": "requirements-test.txt",
     "bytes": 69,
     "sha256": "0053f319e82532047314acf4e1e26308c9763d0f73123a474a96f0e8d8539f58"
+  },
+  {
+    "file": "skill/README.md",
+    "bytes": 2108,
+    "sha256": "bdeed517f497d741fb81f8a4449708e2277ee274e8aeaef2b282dcb6db85e0c2"
+  },
+  {
+    "file": "skill/pynq-general/README.md",
+    "bytes": 12159,
+    "sha256": "bdaa6c8601b324ba29587cebeeb29c2a1da4bd18483e0940f8163c8d1f87f2d3"
+  },
+  {
+    "file": "skill/pynq-general/SKILL.md",
+    "bytes": 3357,
+    "sha256": "06d3a5bded76e4ccec7de13d243fa2410861f43fd9478aaae4fbcb6ec3b8dbc2"
+  },
+  {
+    "file": "skill/pynq-general/examples/board_test_record.json",
+    "bytes": 1700,
+    "sha256": "54a9bb06b9b65134fa564d8e5ed18652bf235b3914a2696d28737f7db9fbb937"
+  },
+  {
+    "file": "skill/pynq-general/examples/interface_contract.json",
+    "bytes": 487,
+    "sha256": "ccd34506965d0a4632e7b7d6f02ebd38f064b8ceccfa2bff8ac8ea2604b9b273"
+  },
+  {
+    "file": "skill/pynq-general/examples/mmio_read_contract.json",
+    "bytes": 431,
+    "sha256": "490e8c0dc665bc5f80605c27f9283fab3a9d69ba3201d3db2a7738e679fb004a"
+  },
+  {
+    "file": "skill/pynq-general/examples/performance_samples.json",
+    "bytes": 204,
+    "sha256": "ff8ad17fb706e410bed7abfa7ed0c83edc28f342c52e0d4eea9dd571b3ffe8ac"
+  },
+  {
+    "file": "skill/pynq-general/examples/report_metadata.json",
+    "bytes": 184,
+    "sha256": "06c6e558f16d9ce3dba6cac9154395a35f246095b699385d5e2bbedec5e5228d"
+  },
+  {
+    "file": "skill/pynq-general/prompts/partition_algorithm.md",
+    "bytes": 1366,
+    "sha256": "4a1f583c75b4b293f09bfe0baa2bd1bdd6c896d1ffee442ff6757ab572b02168"
+  },
+  {
+    "file": "skill/pynq-general/prompts/triage_reports.md",
+    "bytes": 1421,
+    "sha256": "8a9657231cbc6974a719cb0c546b2c4e61fd925132006456ae130f7f510275ac"
+  },
+  {
+    "file": "skill/pynq-general/references/board_probe_20261104.json",
+    "bytes": 2731,
+    "sha256": "e0787b643e10263fb524ec7ae54e6d735b10b560096e32d4034b2cfca4ff81e6"
+  },
+  {
+    "file": "skill/pynq-general/references/board_validation.md",
+    "bytes": 5678,
+    "sha256": "f59a5d933ce19187f8be3376d1200596643458822c87becaa84464a5af7b65ad"
+  },
+  {
+    "file": "skill/pynq-general/references/observed_board_run.md",
+    "bytes": 3021,
+    "sha256": "7d2da8f8e87531c8c7855df94dfb6a710b6743d70e325ba47969cee7ee164f1a"
+  },
+  {
+    "file": "skill/pynq-general/references/pitfalls.md",
+    "bytes": 3858,
+    "sha256": "cc7a8eae74c79f3ec1b09ac2c17c81cc3b81f89410d070cc3704e1c1d8f046eb"
+  },
+  {
+    "file": "skill/pynq-general/references/vdma_integration.md",
+    "bytes": 2126,
+    "sha256": "ea8fa0f4c2c78fdf85e89b7c1a0bfc65485b68633c12caab61cf8f291c43c9ba"
+  },
+  {
+    "file": "skill/pynq-general/tests/test_tools.py",
+    "bytes": 12085,
+    "sha256": "49f5305b9f27f4db94e0ff4ec5469dbc49ffbc573e956c49d0c7fc35f55878c3"
+  },
+  {
+    "file": "skill/pynq-general/tools/compare_golden.py",
+    "bytes": 4248,
+    "sha256": "0aa8a62ab0287ce183218cc8990e88cd6602f0d127141e26285c60cf4aa44890"
+  },
+  {
+    "file": "skill/pynq-general/tools/contract_codegen.py",
+    "bytes": 4490,
+    "sha256": "a6d69c47ca38eb16fdaad216fc9f0568dcceb32030f9af4a5a8199d604f4bae8"
+  },
+  {
+    "file": "skill/pynq-general/tools/dma_helpers.py",
+    "bytes": 2785,
+    "sha256": "c577fc0b094e56a4a238326a46759c1dadf3f01bd6633af88a92bb0f7ae9d6c2"
+  },
+  {
+    "file": "skill/pynq-general/tools/pynq_overlay.py",
+    "bytes": 9048,
+    "sha256": "b192d86326fb56cbf85dcdc87351bfdfd47a41039a009c1c758f62f29424b938"
+  },
+  {
+    "file": "skill/pynq-general/tools/vivado_reports.py",
+    "bytes": 7057,
+    "sha256": "4ed181c00c6aed5af2a811d59ce9c13c6e53c3a5b5c90650d926a34b32f096f0"
   },
   {
     "file": "tests/offline_hardware.py",

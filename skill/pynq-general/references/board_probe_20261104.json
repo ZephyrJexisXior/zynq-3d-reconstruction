@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "files": {
+    "bit": {
+      "path": "/home/xilinx/usb_top_dual18_20261101_01/vivado/camera_5mp_quality.bit",
+      "bytes": 4045769,
+      "sha256": "d262ce1c09e6b707f601509177f1b73a048bb7afba4db95eccb0ca7036d33168"
+    },
+    "hwh": {
+      "path": "/home/xilinx/usb_top_dual18_20261101_01/vivado/camera_5mp_quality.hwh",
+      "bytes": 723381,
+      "sha256": "116d416dbbb12d3d455f35a23664154d4e6ae7432ef2c2cd57c00ed6cf78abd5"
+    }
+  },
+  "problems": [],
+  "probe": {
+    "bitfile": "/home/xilinx/usb_top_dual18_20261101_01/vivado/camera_5mp_quality.bit",
+    "available_ips": [
+      "axi_gpio_0",
+      "axi_vdma_0",
+      "clk_wiz_0",
+      "dual_view_0",
+      "foreground_hint_0",
+      "image_process_0",
+      "processing_system7_0",
+      "v_tc_0"
+    ],
+    "missing_ips": [],
+    "missing_registers": {},
+    "mmio": {
+      "image_process_0": {
+        "passed": true,
+        "registers": [
+          {
+            "name": "version",
+            "offset": 28,
+            "value": 327690,
+            "expected": 327690,
+            "mask": 4294967295,
+            "passed": true
+          },
+          {
+            "name": "status",
+            "offset": 8,
+            "value": 7,
+            "expected": null,
+            "mask": 4294967295,
+            "passed": true
+          },
+          {
+            "name": "width",
+            "offset": 96,
+            "value": 2592,
+            "expected": 2592,
+            "mask": 4294967295,
+            "passed": true
+          },
+          {
+            "name": "height",
+            "offset": 100,
+            "value": 1944,
+            "expected": 1944,
+            "mask": 4294967295,
+            "passed": true
+          }
+        ]
+      }
+    },
+    "passed": true
+  },
+  "pynq_version": "2.7.0",
+  "observed_at": "2021-11-21T06:47:57.556642+00:00",
+  "is_loaded": true,
+  "vdma_api": {
+    "unavailable": "cannot import name 'AxiVDMA' from 'pynq.lib.video' (/home/xilinx/pynq/lib/video/__init__.py)"
+  },
+  "service_before": "MainPID=688\nActiveState=active",
+  "service_after": "MainPID=688\nActiveState=active",
+  "vdma_api_module_check": {
+    "module": "pynq.lib.video.dma",
+    "class_available": true,
+    "source": "/home/xilinx/pynq/lib/video/dma.py",
+    "channel_methods": {
+      "S2MMChannel": [],
+      "MM2SChannel": []
+    }
+  },
+  "host_archived_at": "2026-11-04T13:59:09.673401+08:00",
+  "board_clock_reliable": false,
+  "scope": "read-only artifact and explicit MMIO probe; no programming, register writes, service restart, or transfer",
+  "helper_sha256": "b192d86326fb56cbf85dcdc87351bfdfd47a41039a009c1c758f62f29424b938",
+  "contract_sha256": "490e8c0dc665bc5f80605c27f9283fab3a9d69ba3201d3db2a7738e679fb004a"
+}
